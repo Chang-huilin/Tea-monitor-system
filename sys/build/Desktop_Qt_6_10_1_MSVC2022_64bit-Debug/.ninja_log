@@ -1,0 +1,14 @@
+# ninja log v6
+589	2874	7879199047891411	CMakeFiles/teaSYS.dir/main.cpp.obj	99267fb1afcba44e
+38	582	7879199047005578	teaSYS_autogen/timestamp	4b7c74f109c67749
+38	582	7879199047005578	teaSYS_autogen/mocs_compilation.cpp	4b7c74f109c67749
+38	582	7879199047005578	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/timestamp	4b7c74f109c67749
+593	3384	7879199047921427	CMakeFiles/teaSYS.dir/mainwindow.cpp.obj	474c30843b5f5e4
+38	582	7879199047005578	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/mocs_compilation.cpp	4b7c74f109c67749
+583	2873	7879199047821426	CMakeFiles/teaSYS.dir/teaSYS_autogen/mocs_compilation.cpp.obj	e0f97593f7f4787a
+406	1914	7879177020823361	CMakeFiles/teaSYS.dir/core/camera_service.cpp.obj	d735a91d37263ad7
+3384	3802	7879199075819370	teaSYS.exe	ef8e61381f7eb3a9
+3	34	7879050226866224	CMakeFiles/clean.additional	c313c7df7a6a27c5
+34	49	7879050227182393	clean	c6b33aad8e4c4d0
+597	2886	7879199047951973	CMakeFiles/teaSYS.dir/core/spectrometer_service.cpp.obj	28eb9a0f8a3d68bb
+3	532	7879214768281680	build.ninja	4ec2f8eac89e63ed
