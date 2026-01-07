@@ -101,6 +101,12 @@ target_link_libraries(teaSYS PRIVATE
     OceanDirect
 )
 
+find_package(Qt6 REQUIRED COMPONENTS Charts)
+
+target_link_libraries(teaSYS
+    PRIVATE
+    Qt6::Charts
+)
 
 # ===============================
 # Windows

@@ -12,8 +12,8 @@
 
 ### 相机功能
 
-- 自动枚举 GigE Vision 相机  
-- 建立真实相机连接（非模拟）  
+- 自动识别 GigE Vision 相机  
+- 建立相机连接 
 - 支持 Imperx 等 GEV 工业相机  
 - GEV 自动协商网络包大小  
 - 正确配置 Stream Destination  
@@ -38,6 +38,11 @@
 - 自动创建保存目录  
 - 基于时间戳命名，避免覆盖  
 
+
+### 光谱仪功能
+
+- 自动识别海洋光学光谱仪
+
 保存目录结构：
 ```text
   captures/
@@ -54,7 +59,11 @@ teaSYS/
 │  ├─ camera_interface.h    # 相机接口定义
 │  ├─ camera_service.h      # eBUS 相机实现
 │  ├─ camera_service.cpp
-│  └─ ebus_common.h
+│  │  
+│  ├─ spectrometer_interface.h    # 光谱仪接口定义
+│  ├─ spectrometer_service.h      # ocean 光谱仪实现
+│  ├─ spectrometer_service.cpp
+│
 │
 ├─ mainwindow.h             # 主界面定义
 ├─ mainwindow.cpp           # UI 逻辑

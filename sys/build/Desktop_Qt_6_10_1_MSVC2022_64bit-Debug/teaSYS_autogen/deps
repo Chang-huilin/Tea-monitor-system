@@ -66,13 +66,41 @@ teaSYS_autogen/timestamp: \
 	D:/2D_online_system/teaSYS/main.cpp \
 	D:/2D_online_system/teaSYS/mainwindow.cpp \
 	D:/2D_online_system/teaSYS/mainwindow.h \
+	D:/2D_online_system/teaSYS/res.qrc \
 	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
 	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QAbstractAxis \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QAbstractSeries \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QChart \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QChartGlobal \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QChartView \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QLegend \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QLineSeries \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QValueAxis \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/QXYSeries \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qabstractaxis.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qabstractseries.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qchart.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qchartglobal.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qchartview.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qlegend.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qlineseries.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qtcharts-config.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qtchartsexports.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qvalueaxis.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCharts/qxyseries.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QList \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QMargins \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QObject \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QRect \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QSize \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QSizeF \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/QString \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/QTimer \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/QVariant \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/q17memory.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/q20functional.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/q20iterator.h \
@@ -110,6 +138,9 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qcontainerinfo.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qcontainertools_impl.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qcontiguouscache.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qcoreapplication.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qcoreapplication_platform.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qcoreevent.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qdarwinhelpers.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qdatastream.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qdeadlinetimer.h \
@@ -127,12 +158,14 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qglobalstatic.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qhash.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qhashfunctions.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qiodevice.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qiodevicebase.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qiterable.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qiterator.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qlatin1stringview.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qline.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qlist.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qlocale.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qlogging.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qmalloc.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qmap.h \
@@ -142,6 +175,7 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qmetatype.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qminmax.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qnamespace.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qnativeinterface.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qnumeric.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qobject.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qobject_impl.h \
@@ -199,41 +233,71 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qtversionchecks.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qtypeinfo.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qtypes.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtCore/qurl.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qutf8stringview.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qvariant.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qvarlengtharray.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qversiontagging.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qxptype_traits.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtCore/qyieldcpu.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/QBrush \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/QFont \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/QImage \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/QPen \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/QTransform \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qaction.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qbitmap.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qbrush.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qcolor.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qcursor.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qevent.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qeventpoint.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qfont.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qfontinfo.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qfontmetrics.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qfontvariableaxis.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qguiapplication.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qguiapplication_platform.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qicon.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qimage.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qinputdevice.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qinputmethod.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qkeysequence.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpaintdevice.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpainter.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpainterpath.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpalette.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpen.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpixelformat.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpixmap.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpointingdevice.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qpolygon.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qregion.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qrgb.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qrgba64.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qscreen.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qscreen_platform.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qtextoption.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qtgui-config.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qtguiexports.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qtguiglobal.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qtransform.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qvector2d.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtGui/qvectornd.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qwindowdefs.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtGui/qwindowdefs_win.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/QGraphicsView \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/QGraphicsWidget \
 	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/QMainWindow \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qabstractscrollarea.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qframe.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicsitem.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicslayoutitem.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicsscene.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicsview.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicswidget.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qmainwindow.h \
+	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qscrollarea.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qsizepolicy.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qtabwidget.h \
 	D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qtwidgets-config.h \
@@ -281,6 +345,15 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsAdditionalTargetInfo.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersion.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets-debug.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets-relwithdebinfo.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsVersionlessAliasTargets.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
@@ -378,6 +451,24 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-debug.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-debug.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-relwithdebinfo.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake \
+	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessAliasTargets.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-debug.cmake \
@@ -403,94 +494,31 @@ teaSYS_autogen/timestamp: \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	D:/QT/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-CXX-CXXImportStd.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/FindVulkan.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake \
-	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake \

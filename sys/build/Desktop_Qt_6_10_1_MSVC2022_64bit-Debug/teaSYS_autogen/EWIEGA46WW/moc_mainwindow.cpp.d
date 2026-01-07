@@ -59,8 +59,35 @@ D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaS
   D:/2D_online_system/teaSYS/core/camera_interface.h \
   D:/2D_online_system/teaSYS/core/camera_service.h \
   D:/2D_online_system/teaSYS/core/spectrometer_service.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QAbstractAxis \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QAbstractSeries \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QChart \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QChartGlobal \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QChartView \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QLegend \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QLineSeries \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QValueAxis \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/QXYSeries \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qabstractaxis.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qabstractseries.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qchart.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qchartglobal.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qchartview.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qlegend.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qlineseries.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qtcharts-config.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qtchartsexports.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qvalueaxis.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCharts/qxyseries.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QList \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QMargins \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QObject \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QRect \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QSize \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QSizeF \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/QString \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/QTimer \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/QVariant \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/q17memory.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/q20functional.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/q20iterator.h \
@@ -98,6 +125,9 @@ D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaS
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qcontainerinfo.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qcontainertools_impl.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qcontiguouscache.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qcoreapplication.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qcoreapplication_platform.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qcoreevent.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qdarwinhelpers.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qdatastream.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qdeadlinetimer.h \
@@ -115,12 +145,14 @@ D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaS
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qglobalstatic.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qhash.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qhashfunctions.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qiodevice.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qiodevicebase.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qiterable.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qiterator.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qlatin1stringview.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qline.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qlist.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qlocale.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qlogging.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qmalloc.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qmap.h \
@@ -130,6 +162,7 @@ D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaS
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qmetatype.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qminmax.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qnamespace.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qnativeinterface.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qnumeric.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qobject.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qobject_impl.h \
@@ -187,41 +220,71 @@ D:/2D_online_system/teaSYS/sys/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaS
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qtversionchecks.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qtypeinfo.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qtypes.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtCore/qurl.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qutf8stringview.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qvariant.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qversiontagging.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qxptype_traits.h \
   D:/QT/6.10.1/msvc2022_64/include/QtCore/qyieldcpu.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/QBrush \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/QFont \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/QImage \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/QPen \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/QTransform \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qaction.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qbitmap.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qbrush.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qcolor.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qcursor.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qevent.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qeventpoint.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qfont.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qfontinfo.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qfontmetrics.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qfontvariableaxis.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qguiapplication.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qguiapplication_platform.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qicon.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qimage.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qinputdevice.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qinputmethod.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qkeysequence.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qpaintdevice.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qpainter.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qpainterpath.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qpalette.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qpen.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qpixelformat.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qpixmap.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qpointingdevice.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qpolygon.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qregion.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qrgb.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qrgba64.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qscreen.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qscreen_platform.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qtextoption.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qtgui-config.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qtguiexports.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qtguiglobal.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qtransform.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qvector2d.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtGui/qvectornd.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.10.1/msvc2022_64/include/QtGui/qwindowdefs_win.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/QGraphicsView \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/QGraphicsWidget \
   D:/QT/6.10.1/msvc2022_64/include/QtWidgets/QMainWindow \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qframe.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicsitem.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicslayoutitem.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicsscene.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicsview.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qgraphicswidget.h \
   D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qmainwindow.h \
+  D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qscrollarea.h \
   D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qtabwidget.h \
   D:/QT/6.10.1/msvc2022_64/include/QtWidgets/qtwidgets-config.h \

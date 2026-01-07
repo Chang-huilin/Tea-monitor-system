@@ -1,6 +1,9 @@
 #include "spectrometer_service.h"
 
 #include <api/OceanDirectAPI.h>   // 关键：正确路径
+#include "api/advanced/Advance.h"
+#include "api/advanced/DeviceInformationAPI.h"
+#include "api/advanced/DeviceAliasAPI.h"
 #include <QDebug>
 
 using oceandirect::api::OceanDirectAPI;
@@ -47,6 +50,9 @@ std::vector<std::string> SpectrometerService::enumerateDevices()
 
     return out;
 }
+
+
+
 
 bool SpectrometerService::openFirstDevice()
 {
@@ -140,4 +146,63 @@ bool SpectrometerService::getSpectrumOnce(std::vector<double>& wavelengths,
     }
 
     return true;
+}
+
+//获取型号（Model）
+std::string SpectrometerService::spectrometerModel() const
+{
+    if (!m_isOpen || m_deviceId < 0)
+        return "Unknown";
+
+    auto adv = oceandirect::api::Advance::getInstance();
+    if (!adv)
+        return "Unknown";
+
+    auto info = adv->DeviceInformationControl();
+    if (!info)
+        return "Unknown";
+
+    int errorCode = 0;
+    char buffer[256] = {0};
+
+    int len = info->getModelString(
+        m_deviceId,
+        &errorCode,
+        buffer,
+        sizeof(buffer)
+        );
+
+    if (errorCode != 0 || len <= 0)
+        return "Unknown";
+
+    return std::string(buffer, len);
+}
+//厂家
+std::string SpectrometerService::spectrometerManufacturer() const
+{
+    if (!m_isOpen || m_deviceId < 0)
+        return "Unknown";
+
+    auto adv = oceandirect::api::Advance::getInstance();
+    if (!adv)
+        return "Unknown";
+
+    auto info = adv->DeviceInformationControl();
+    if (!info)
+        return "Unknown";
+
+    int errorCode = 0;
+    char buffer[256] = {0};
+
+    int len = info->getManufacturerString(
+        m_deviceId,
+        &errorCode,
+        buffer,
+        sizeof(buffer)
+        );
+
+    if (errorCode != 0 || len <= 0)
+        return "Unknown";
+
+    return std::string(buffer, len);
 }

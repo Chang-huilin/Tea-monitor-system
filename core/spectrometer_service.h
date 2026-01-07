@@ -27,9 +27,14 @@ public:
 
     bool isOpen() const { return m_isOpen; }
     long deviceId() const { return m_deviceId; }
-
+    // 光谱仪信息
+    std::string spectrometerModel() const;
+    std::string spectrometerManufacturer() const;
 private:
     oceandirect::api::OceanDirectAPI* m_api = nullptr; // singleton，不 delete
     long m_deviceId = -1;
     bool m_isOpen = false;
+
+
+
 };
