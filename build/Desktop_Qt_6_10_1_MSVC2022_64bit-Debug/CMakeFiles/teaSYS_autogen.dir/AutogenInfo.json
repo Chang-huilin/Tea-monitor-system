@@ -488,6 +488,12 @@
 			null
 		],
 		[
+			"D:/2D_online_system/teaSYS/core/witheronnxinfer.h",
+			"MU",
+			"TAC5DWH4SE/moc_witheronnxinfer.cpp",
+			null
+		],
+		[
 			"D:/2D_online_system/teaSYS/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -523,6 +529,7 @@
 	[
 		"D:/SDK/ebus sdk/Includes",
 		"C:/Program Files/Ocean Optics/OceanDirect SDK/include",
+		"D:/SDK/onnxruntime-win-x64-1.23.2/include",
 		"D:/Qt/6.10.1/msvc2022_64/include/QtCore",
 		"D:/Qt/6.10.1/msvc2022_64/include",
 		"D:/Qt/6.10.1/msvc2022_64/mkspecs/win32-msvc",
@@ -541,7 +548,7 @@
 		"Q_GADGET_EXPORT",
 		"Q_ENUM_NS"
 	],
-	"MOC_OPTIONS" : [ "-DWIN32", "--compiler-flavor=msvc" ],
+	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : [],
 	"MOC_PREDEFS_FILE" : "",
@@ -563,6 +570,7 @@
 			"MU",
 			null
 		],
+		[ "D:/2D_online_system/teaSYS/core/witheronnxinfer.cpp", "MU", null ],
 		[ "D:/2D_online_system/teaSYS/main.cpp", "MU", null ],
 		[ "D:/2D_online_system/teaSYS/mainwindow.cpp", "MU", null ]
 	],

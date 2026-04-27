@@ -20,7 +20,7 @@
 - 连续采集（Continuous Acquisition）  
 - 关闭硬触发（Trigger Off）  
 
-### 图像采集与显示
+#### 图像采集与显示
 
 - 单帧采集（手动拍摄）  
 - 连续采集（定时器触发）  
@@ -31,7 +31,7 @@
 - Qt 界面实时显示图像  
 - 自动保持宽高比缩放显示  
 
-### 图像保存
+#### 图像保存
 
 - 手动拍摄自动保存  
 - 定时拍摄自动保存  
@@ -42,6 +42,8 @@
 ### 光谱仪功能
 
 - 自动识别海洋光学光谱仪
+- 黑白平衡矫正
+- 单次采集和连续采集
 
 保存目录结构：
 ```text
@@ -97,6 +99,7 @@ teaSYS/
 - CMake ≥ 3.16
 - Pleora **eBUS SDK（Windows x64）**
 - 支持 GigE Vision 的工业相机
+- ocean direct SDK
 
 ### 已验证环境
 
@@ -104,8 +107,7 @@ teaSYS/
 - MSVC 2022  
 - Pleora eBUS SDK（GEV）  
 - Imperx GEV 系列相机  
-
----
+- OCEAN FLAME-NIR+ 光谱仪
 
 ## CMake 配置要点
 
@@ -130,7 +132,7 @@ target_link_libraries(teaSYS PRIVATE
 ## 使用说明
 
 1. **启动程序**  
-   运行 `teaSYS.exe`
+   - 运行 `teaSYS.exe`
 
 2. **连接相机**  
    - 点击 “连接相机”  

@@ -32,7 +32,6 @@ set(OCEANDIRECT_ROOT "C:/Program Files/Ocean Optics/OceanDirect SDK")
 set(OCEANDIRECT_INCLUDE_DIR "${OCEANDIRECT_ROOT}/include")
 set(OCEANDIRECT_LIB_DIR     "${OCEANDIRECT_ROOT}/lib")
 
-
 # ===============================
 # 工程源文件
 # ===============================
@@ -50,6 +49,9 @@ set(PROJECT_SOURCES
     core/spectrometer_interface.h
     core/spectrometer_service.h
     core/spectrometer_service.cpp
+
+    core/WitherOnnxInfer.h
+    core/WitherOnnxInfer.cpp
 )
 
 # ===============================
@@ -60,12 +62,18 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         readme.md
+        core/witheronnxinfer.h
+        core/witheronnxinfer.cpp
     )
+
 else()
     add_executable(teaSYS
         ${PROJECT_SOURCES}
+        core/witheronnxinfer.h
+        core/witheronnxinfer.cpp
     )
 endif()
+
 
 # ===============================
 # include / link
@@ -94,11 +102,28 @@ target_link_directories(teaSYS PRIVATE
     ${OCEANDIRECT_LIB_DIR}
 )
 
+
+
 # 说明：
 # 1) 这里通常应该链接 OceanDirect.lib（MSVC 需要 import lib）
 # 2) 如果你的 lib 目录里确实只有 OceanDirect.dll 而没有 .lib，先去确认 SDK 是否提供 .lib
+
+
 target_link_libraries(teaSYS PRIVATE
     OceanDirect
+)
+set(ORT_ROOT "D:/SDK/onnxruntime-win-x64-1.23.2")
+
+target_include_directories(teaSYS PRIVATE
+    ${ORT_ROOT}/include
+)
+
+target_link_directories(teaSYS PRIVATE
+    ${ORT_ROOT}/lib
+)
+
+target_link_libraries(teaSYS PRIVATE
+    onnxruntime
 )
 
 find_package(Qt6 REQUIRED COMPONENTS Charts)
@@ -110,13 +135,14 @@ target_link_libraries(teaSYS
 
 # ===============================
 # Windows
-# ===============================
+# ====== =========================
 set_target_properties(teaSYS PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(teaSYS)
+    # qt_finalize_executabl         e(teaSYS)
 endif()
 
 # 运行时把 DLL 拷贝到 exe 同目录（非常关键）

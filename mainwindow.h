@@ -5,7 +5,9 @@
 #include <QImage>
 #include "core/camera_service.h"
 #include "core/spectrometer_service.h"
+#include "core/WitherOnnxInfer.h"
 #include <vector>
+
 
 
 #include <QtCharts/QChart>
@@ -31,7 +33,7 @@ public:
 
 private slots:
     void on_btnConnect_clicked();
-    void on_btnStartTimer_clicked();   // 新增
+    void on_btnStartTimercamera_clicked();   // 新增
     void onCaptureTimeout();           // 定时槽
     void on_btnGrab_clicked();
     void on_btnStartContinuous_clicked(); // 连续拍摄按钮
@@ -84,6 +86,11 @@ private:
     };
 
     SpectrumMode m_spectrumMode = SpectrumMode::Idle;
+
+private:
+
+    WitherOnnxInfer m_infer;   // <-- 放这里
+    QTimer m_inferTimer;     // 如果你要定时推理
 
 
 protected:

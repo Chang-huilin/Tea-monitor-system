@@ -41,7 +41,7 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "MainWindow",
         "on_btnConnect_clicked",
         "",
-        "on_btnStartTimer_clicked",
+        "on_btnStartTimercamera_clicked",
         "onCaptureTimeout",
         "on_btnGrab_clicked",
         "on_btnStartContinuous_clicked",
@@ -64,7 +64,7 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
     QtMocHelpers::UintData qt_methods {
         // Slot 'on_btnConnect_clicked'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_btnStartTimer_clicked'
+        // Slot 'on_btnStartTimercamera_clicked'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onCaptureTimeout'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
@@ -120,7 +120,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->on_btnConnect_clicked(); break;
-        case 1: _t->on_btnStartTimer_clicked(); break;
+        case 1: _t->on_btnStartTimercamera_clicked(); break;
         case 2: _t->onCaptureTimeout(); break;
         case 3: _t->on_btnGrab_clicked(); break;
         case 4: _t->on_btnStartContinuous_clicked(); break;

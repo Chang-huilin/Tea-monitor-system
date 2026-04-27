@@ -5,63 +5,7 @@ D:/2D_online_system/teaSYS/core/camera_service.h
 D:/2D_online_system/teaSYS/core/spectrometer_service.h
 D:/2D_online_system/teaSYS/mainwindow.h
  mmc:Q_OBJECT
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/assert.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_malloc.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_memcpy_s.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_memory.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_search.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_stdio_config.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_wstdio.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_wstdlib.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/corecrt_wstring.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/errno.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/stddef.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/stdio.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/stdlib.h
- mdp:C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/string.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/algorithm
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/array
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/atomic
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cassert
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/chrono
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/climits
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cmath
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/concurrencysal.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstddef
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstdint
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstdlib
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstring
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/functional
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/initializer_list
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/iterator
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/limits
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/limits.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/list
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/map
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/memory
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/new
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/numeric
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/optional
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/sal.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/set
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/stdarg.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/stdbool.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/string
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/string_view
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/tuple
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/type_traits
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/unordered_map
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/unordered_set
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/utility
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/vadefs.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/variant
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/vcruntime.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/vcruntime_string.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/vector
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/version
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/yvals.h
- mdp:C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/yvals_core.h
+ mdp:D:/2D_online_system/teaSYS/core/witheronnxinfer.h
  mdp:D:/2D_online_system/teaSYS/core/camera_interface.h
  mdp:D:/2D_online_system/teaSYS/core/camera_service.h
  mdp:D:/2D_online_system/teaSYS/core/spectrometer_service.h
@@ -298,8 +242,15 @@ D:/2D_online_system/teaSYS/mainwindow.h
  mdp:D:/Qt/6.10.1/msvc2022_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/Qt/6.10.1/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/Qt/6.10.1/msvc2022_64/include/QtWidgets/qwidget.h
-D:/2D_online_system/teaSYS/core/camera_service.cpp
-D:/2D_online_system/teaSYS/core/spectrometer_service.cpp
-D:/2D_online_system/teaSYS/main.cpp
+ mdp:D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_c_api.h
+ mdp:D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_cxx_api.h
+ mdp:D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_cxx_inline.h
+ mdp:D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_ep_c_api.h
+ mdp:D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_float16.h
+D:/2D_online_system/teaSYS/core/witheronnxinfer.h
 D:/2D_online_system/teaSYS/mainwindow.cpp
  uic:ui_mainwindow.h
+D:/2D_online_system/teaSYS/core/camera_service.cpp
+D:/2D_online_system/teaSYS/core/spectrometer_service.cpp
+D:/2D_online_system/teaSYS/core/witheronnxinfer.cpp
+D:/2D_online_system/teaSYS/main.cpp

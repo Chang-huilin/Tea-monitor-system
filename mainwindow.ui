@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1156</width>
-    <height>942</height>
+    <width>1093</width>
+    <height>974</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,6 +17,20 @@
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="0" rowspan="2">
      <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btnStartContinuous">
+        <property name="text">
+         <string>自动拍摄</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QPushButton" name="btnStartContinuousSpectrum">
+        <property name="text">
+         <string>采集连续光谱</string>
+        </property>
+       </widget>
+      </item>
       <item row="1" column="0">
        <widget class="QPushButton" name="btnGrab">
         <property name="text">
@@ -24,10 +38,45 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="1">
-       <widget class="QPushButton" name="btnStartContinuous">
+      <item row="6" column="0">
+       <widget class="QPushButton" name="btnGrabSpectrum">
         <property name="text">
-         <string>自动拍摄</string>
+         <string>采集单次光谱</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="2">
+       <widget class="QPushButton" name="btnStartTimerspectrum">
+        <property name="text">
+         <string>定时采集</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="btnGrabWhite">
+        <property name="text">
+         <string>White</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="btnGrabDark">
+        <property name="text">
+         <string>Dark采暗</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <widget class="QPushButton" name="btnConnect">
+        <property name="text">
+         <string>连接相机</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QPushButton" name="btnStartTimercamera">
+        <property name="text">
+         <string>定时拍摄</string>
         </property>
        </widget>
       </item>
@@ -51,58 +100,12 @@
         </property>
        </widget>
       </item>
-      <item row="4" column="0">
-       <widget class="QPushButton" name="btnGrabDark">
-        <property name="text">
-         <string>Dark采暗</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="1">
-       <widget class="QPushButton" name="btnGrabWhite">
-        <property name="text">
-         <string>White</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="0">
-       <widget class="QPushButton" name="btnGrabSpectrum">
-        <property name="text">
-         <string>采集单次光谱</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="1">
-       <widget class="QPushButton" name="btnStartContinuousSpectrum">
-        <property name="text">
-         <string>采集连续光谱</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0" colspan="2">
-       <widget class="QPushButton" name="btnConnect">
-        <property name="text">
-         <string>连接相机</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0" colspan="2">
-       <widget class="QPushButton" name="btnStartTimer">
-        <property name="text">
-         <string>定时拍摄</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0" colspan="2">
-       <widget class="QPushButton" name="btnStartTimerspectrum">
-        <property name="text">
-         <string>定时采集</string>
-        </property>
-       </widget>
-      </item>
      </layout>
     </item>
-    <item row="0" column="1">
+    <item row="1" column="2">
+     <widget class="QWidget" name="spectrumView" native="true"/>
+    </item>
+    <item row="0" column="2">
      <widget class="QLabel" name="imageView">
       <property name="frameShape">
        <enum>QFrame::Shape::Box</enum>
@@ -115,10 +118,7 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QWidget" name="spectrumView" native="true"/>
-    </item>
-    <item row="2" column="0" colspan="2">
+    <item row="3" column="0">
      <widget class="QPlainTextEdit" name="logOutput">
       <property name="enabled">
        <bool>true</bool>
@@ -131,18 +131,29 @@
       </property>
      </widget>
     </item>
+    <item row="3" column="2">
+     <widget class="QPlainTextEdit" name="WitheringDegree">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+     </widget>
+    </item>
    </layout>
    <zorder>spectrumView</zorder>
    <zorder></zorder>
-   <zorder>logOutput</zorder>
    <zorder>imageView</zorder>
+   <zorder>logOutput</zorder>
+   <zorder>WitheringDegree</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1156</width>
+     <width>1093</width>
      <height>26</height>
     </rect>
    </property>

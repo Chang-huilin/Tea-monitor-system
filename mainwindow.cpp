@@ -17,7 +17,7 @@
 #include <QtCharts/QLineSeries>
 #include <QtCharts/QValueAxis>
 
-
+#include <algorithm>
 #include <limits>
 #include <cmath>
 
@@ -49,7 +49,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // 日志：只读 + 限制行数，防止长期运行卡顿
     ui->logOutput->setReadOnly(true);
-    ui->logOutput->document()->setMaximumBlockCount(20); // 最多2000行，自动丢弃最老的
+    ui->logOutput->document()->setMaximumBlockCount(200); // 最多2000行，自动丢弃最老的
 
     // imageView 显示策略
     ui->imageView->setScaledContents(false);
@@ -112,6 +112,12 @@ MainWindow::MainWindow(QWidget *parent)
             this, &MainWindow::onSpectrumTimerTimeout);
 
     updateButtonState();
+    QString onnxPath = QCoreApplication::applicationDirPath() + "/wither_3class_multimodal.onnx";
+    if (!m_infer.init(onnxPath)) {
+        ui->logOutput->appendPlainText("ONNX init failed: " + onnxPath);
+    } else {
+        ui->logOutput->appendPlainText("ONNX init ok: " + onnxPath);
+    };
 }
 
 MainWindow::~MainWindow()
@@ -144,6 +150,8 @@ void MainWindow::on_btnConnect_clicked()
     {
         ui->logOutput->appendPlainText("相机打开失败");
     }
+    updateButtonState();
+
 }
 
 // =======================
@@ -177,7 +185,7 @@ void MainWindow::on_btnGrab_clicked()
 // =======================
 // 定时拍照模式
 // =======================
-void MainWindow::on_btnStartTimer_clicked()
+void MainWindow::on_btnStartTimercamera_clicked()
 {
     if (!m_captureTimer.isActive())
     {
@@ -314,7 +322,7 @@ void MainWindow::updateButtonState()
     ui->btnGrabSpectrum->setEnabled(connected && !running);
 
     ui->btnStartContinuousSpectrum->setEnabled(connected && !running);
-    ui->btnStartTimer->setEnabled(connected && !running);
+    ui->btnStartTimercamera->setEnabled(connected && !running);
     ui->btnStopSpectrum->setEnabled(running);
 }
 
