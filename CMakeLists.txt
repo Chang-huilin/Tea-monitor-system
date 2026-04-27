@@ -114,6 +114,12 @@ target_link_libraries(teaSYS PRIVATE
 )
 set(ORT_ROOT "D:/SDK/onnxruntime-win-x64-1.23.2")
 
+add_custom_command(TARGET teaSYS POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${ORT_ROOT}/lib/onnxruntime.dll"
+        $<TARGET_FILE_DIR:teaSYS>
+)
+
 target_include_directories(teaSYS PRIVATE
     ${ORT_ROOT}/include
 )

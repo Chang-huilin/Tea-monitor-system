@@ -1,0 +1,5 @@
+D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/teaSYS.dir
+D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/edit_cache.dir
+D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/teaSYS_autogen_timestamp_deps.dir
+D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/teaSYS_autogen.dir
