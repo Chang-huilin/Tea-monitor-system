@@ -342,7 +342,7 @@ teaSYS_BINARY_DIR:STATIC=D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC
 teaSYS_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-teaSYS_SOURCE_DIR:STATIC=D:/2D_online_system/teaSYS
+teaSYS_SOURCE_DIR:STATIC=D:/2D_online_system/teaSYS - 副本
 
 
 ########################
@@ -409,7 +409,7 @@ CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
 CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=D:/2D_online_system/teaSYS
+CMAKE_HOME_DIRECTORY:INTERNAL=D:/2D_online_system/teaSYS - 副本
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

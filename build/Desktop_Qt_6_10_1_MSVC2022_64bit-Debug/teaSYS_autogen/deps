@@ -1,21 +1,21 @@
 teaSYS_autogen/timestamp: \
-	D:/2D_online_system/teaSYS/CMakeLists.txt \
+	D:/2D_online_system/teaSYS\ -\ 副本/CMakeLists.txt \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/camera_interface.h \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/camera_service.cpp \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/camera_service.h \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/spectrometer_interface.h \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/spectrometer_service.cpp \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/spectrometer_service.h \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/witheronnxinfer.cpp \
+	D:/2D_online_system/teaSYS\ -\ 副本/core/witheronnxinfer.h \
+	D:/2D_online_system/teaSYS\ -\ 副本/main.cpp \
+	D:/2D_online_system/teaSYS\ -\ 副本/mainwindow.cpp \
+	D:/2D_online_system/teaSYS\ -\ 副本/mainwindow.h \
 	D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
 	D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	D:/2D_online_system/teaSYS/core/camera_interface.h \
-	D:/2D_online_system/teaSYS/core/camera_service.cpp \
-	D:/2D_online_system/teaSYS/core/camera_service.h \
-	D:/2D_online_system/teaSYS/core/spectrometer_interface.h \
-	D:/2D_online_system/teaSYS/core/spectrometer_service.cpp \
-	D:/2D_online_system/teaSYS/core/spectrometer_service.h \
-	D:/2D_online_system/teaSYS/core/witheronnxinfer.cpp \
-	D:/2D_online_system/teaSYS/core/witheronnxinfer.h \
-	D:/2D_online_system/teaSYS/main.cpp \
-	D:/2D_online_system/teaSYS/mainwindow.cpp \
-	D:/2D_online_system/teaSYS/mainwindow.h \
 	D:/Qt/6.10.1/msvc2022_64/include/QtCharts/QAbstractAxis \
 	D:/Qt/6.10.1/msvc2022_64/include/QtCharts/QAbstractSeries \
 	D:/Qt/6.10.1/msvc2022_64/include/QtCharts/QChart \
@@ -188,6 +188,7 @@ teaSYS_autogen/timestamp: \
 	D:/Qt/6.10.1/msvc2022_64/include/QtGui/QFont \
 	D:/Qt/6.10.1/msvc2022_64/include/QtGui/QImage \
 	D:/Qt/6.10.1/msvc2022_64/include/QtGui/QPen \
+	D:/Qt/6.10.1/msvc2022_64/include/QtGui/QResizeEvent \
 	D:/Qt/6.10.1/msvc2022_64/include/QtGui/QTransform \
 	D:/Qt/6.10.1/msvc2022_64/include/QtGui/qaction.h \
 	D:/Qt/6.10.1/msvc2022_64/include/QtGui/qbitmap.h \
@@ -438,31 +439,94 @@ teaSYS_autogen/timestamp: \
 	D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-CXX-CXXImportStd.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindVulkan.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake \
+	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake \
 	D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake \
@@ -473,5 +537,5 @@ teaSYS_autogen/timestamp: \
 	D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_cxx_inline.h \
 	D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_ep_c_api.h \
 	D:/SDK/onnxruntime-win-x64-1.23.2/include/onnxruntime_float16.h \
-	D:/2D_online_system/teaSYS/mainwindow.ui \
+	D:/2D_online_system/teaSYS\ -\ 副本/mainwindow.ui \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

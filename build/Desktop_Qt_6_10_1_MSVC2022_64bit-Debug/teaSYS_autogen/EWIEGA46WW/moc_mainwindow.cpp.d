@@ -1,8 +1,8 @@
-D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/2D_online_system/teaSYS/mainwindow.h \
-  D:/2D_online_system/teaSYS/core/WitherOnnxInfer.h \
-  D:/2D_online_system/teaSYS/core/camera_interface.h \
-  D:/2D_online_system/teaSYS/core/camera_service.h \
-  D:/2D_online_system/teaSYS/core/spectrometer_service.h \
+D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/2D_online_system/teaSYS\ -\ 副本/mainwindow.h \
+  D:/2D_online_system/teaSYS\ -\ 副本/core/WitherOnnxInfer.h \
+  D:/2D_online_system/teaSYS\ -\ 副本/core/camera_interface.h \
+  D:/2D_online_system/teaSYS\ -\ 副本/core/camera_service.h \
+  D:/2D_online_system/teaSYS\ -\ 副本/core/spectrometer_service.h \
   D:/Qt/6.10.1/msvc2022_64/include/QtCharts/QAbstractAxis \
   D:/Qt/6.10.1/msvc2022_64/include/QtCharts/QAbstractSeries \
   D:/Qt/6.10.1/msvc2022_64/include/QtCharts/QChart \
@@ -175,6 +175,7 @@ D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_a
   D:/Qt/6.10.1/msvc2022_64/include/QtGui/QFont \
   D:/Qt/6.10.1/msvc2022_64/include/QtGui/QImage \
   D:/Qt/6.10.1/msvc2022_64/include/QtGui/QPen \
+  D:/Qt/6.10.1/msvc2022_64/include/QtGui/QResizeEvent \
   D:/Qt/6.10.1/msvc2022_64/include/QtGui/QTransform \
   D:/Qt/6.10.1/msvc2022_64/include/QtGui/qaction.h \
   D:/Qt/6.10.1/msvc2022_64/include/QtGui/qbitmap.h \

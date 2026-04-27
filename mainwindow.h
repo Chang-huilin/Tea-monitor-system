@@ -96,6 +96,13 @@ private:
 protected:
     void resizeEvent(QResizeEvent* e) override;
 
+
+private:
+
+    QChartView *chartView = nullptr;
+
+    void loadImageToView(const QString &imagePath);
+    void loadSpectrumFromCsv(const QString &csvPath);
 };
 
 

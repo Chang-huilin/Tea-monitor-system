@@ -1,4 +1,4 @@
-# Install script for directory: D:/2D_online_system/teaSYS
+# Install script for directory: D:/2D_online_system/teaSYS - 副本
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

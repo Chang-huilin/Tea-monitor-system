@@ -511,7 +511,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/2D_online_system/teaSYS"
+			"value" : "D:/2D_online_system/teaSYS - \u526f\u672c"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -6867,7 +6867,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2D_online_system/teaSYS"
+			"value" : "D:/2D_online_system/teaSYS - \u526f\u672c"
 		}
 	],
 	"kind" : "cache",

@@ -41,12 +41,198 @@ static QString makeFilename(const QString& prefix)
            ".png";
 }
 
+
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setStyleSheet(R"(
+QMainWindow, QWidget {
+    background-color: #dfe4ec;
+    color: #1f2d3d;
+    font-family: "SimHei", "Times New Roman";
+    font-size: 10pt;
+}
 
+QMenuBar {
+    background-color: #4f86e8;
+    color: white;
+    spacing: 8px;
+    border: none;
+    min-height: 34px;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 6px 12px;
+}
+
+QMenuBar::item:selected {
+    background: rgba(255,255,255,0.18);
+    border-radius: 4px;
+}
+
+QMenu {
+    background-color: #f4f7fb;
+    border: 1px solid #b9c3d3;
+}
+
+QMenu::item {
+    padding: 6px 24px 6px 18px;
+}
+
+QMenu::item:selected {
+    background-color: #d9e8ff;
+}
+
+QPushButton {
+    background-color: #dbe6f7;
+    border: 1px solid #b8c7dc;
+    border-radius: 4px;
+    padding: 8px 14px;
+    min-height: 34px;
+    color: #19345f;
+}
+
+QPushButton:hover {
+    background-color: #cfe0f8;
+    border: 1px solid #9db6da;
+}
+
+QPushButton:pressed {
+    background-color: #bdd3f3;
+}
+
+QPushButton:disabled {
+    background-color: #e8edf5;
+    color: #8b97a8;
+    border: 1px solid #c8d1de;
+}
+
+QLabel {
+    color: #24364f;
+    background: transparent;
+}
+
+QGroupBox {
+    border: 1px solid #b8c1cf;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #e6ebf3;
+    font-weight: bold;
+    color: #23395d;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 4px 0 4px;
+}
+
+QLineEdit, QPlainTextEdit, QTextEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+    background-color: #f8fafc;
+    border: 1px solid #b8c1cf;
+    border-radius: 3px;
+    padding: 4px 6px;
+    selection-background-color: #4f86e8;
+    selection-color: white;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 22px;
+    border-left: 1px solid #b8c1cf;
+    background-color: #e8eef8;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #f8fafc;
+    border: 1px solid #b8c1cf;
+    selection-background-color: #d8e7ff;
+}
+
+QPlainTextEdit, QTextEdit {
+    background-color: white;
+}
+
+QFrame, QLabel#imageView, QWidget#spectrumView {
+    border: 1px solid #b8c1cf;
+}
+
+QLabel#imageView {
+    background-color: #142845;
+}
+
+QWidget#spectrumView {
+    background-color: #142845;
+}
+
+QTabWidget::pane {
+    border: 1px solid #b8c1cf;
+    background: #eef2f7;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: #dbe6f7;
+    border: 1px solid #b8c1cf;
+    padding: 6px 14px;
+    margin-right: 2px;
+    color: #1f3761;
+}
+
+QTabBar::tab:selected {
+    background: #4f86e8;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #dbe6f7;
+    color: #1f3761;
+    padding: 6px;
+    border: 1px solid #b8c1cf;
+    font-weight: bold;
+}
+
+QTableWidget, QTableView {
+    background-color: white;
+    gridline-color: #c8d1de;
+    border: 1px solid #b8c1cf;
+}
+
+QScrollBar:vertical {
+    background: #e7ebf1;
+    width: 12px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #b7c5d8;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar:horizontal {
+    background: #e7ebf1;
+    height: 12px;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    background: #b7c5d8;
+    min-width: 20px;
+    border-radius: 4px;
+}
+
+QStatusBar {
+    background-color: #e8edf5;
+    border-top: 1px solid #b8c1cf;
+    color: #31445f;
+}
+)");
     // 日志：只读 + 限制行数，防止长期运行卡顿
     ui->logOutput->setReadOnly(true);
     ui->logOutput->document()->setMaximumBlockCount(200); // 最多2000行，自动丢弃最老的
@@ -322,7 +508,7 @@ void MainWindow::updateButtonState()
     ui->btnGrabSpectrum->setEnabled(connected && !running);
 
     ui->btnStartContinuousSpectrum->setEnabled(connected && !running);
-    ui->btnStartTimercamera->setEnabled(connected && !running);
+    ui->btnStartTimer->setEnabled(connected && !running);
     ui->btnStopSpectrum->setEnabled(running);
 }
 

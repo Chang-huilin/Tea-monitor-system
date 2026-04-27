@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1093</width>
-    <height>974</height>
+    <width>1280</width>
+    <height>900</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,100 +15,273 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>18</number>
+    </property>
+    <property name="topMargin">
+     <number>18</number>
+    </property>
+    <property name="rightMargin">
+     <number>18</number>
+    </property>
+    <property name="bottomMargin">
+     <number>18</number>
+    </property>
+    <property name="horizontalSpacing">
+     <number>18</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>14</number>
+    </property>
+
     <item row="0" column="0" rowspan="2">
      <layout class="QGridLayout" name="gridLayout">
-      <item row="1" column="1">
-       <widget class="QPushButton" name="btnStartContinuous">
-        <property name="text">
-         <string>自动拍摄</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="1">
-       <widget class="QPushButton" name="btnStartContinuousSpectrum">
-        <property name="text">
-         <string>采集连续光谱</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QPushButton" name="btnGrab">
-        <property name="text">
-         <string>手动拍摄（单张）</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0">
-       <widget class="QPushButton" name="btnGrabSpectrum">
-        <property name="text">
-         <string>采集单次光谱</string>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="0" colspan="2">
-       <widget class="QPushButton" name="btnStartTimerspectrum">
-        <property name="text">
-         <string>定时采集</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="1">
-       <widget class="QPushButton" name="btnGrabWhite">
-        <property name="text">
-         <string>White</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="0">
-       <widget class="QPushButton" name="btnGrabDark">
-        <property name="text">
-         <string>Dark采暗</string>
-        </property>
-       </widget>
-      </item>
+      <property name="horizontalSpacing">
+       <number>12</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>12</number>
+      </property>
+
       <item row="0" column="0" colspan="2">
        <widget class="QPushButton" name="btnConnect">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="text">
          <string>连接相机</string>
         </property>
        </widget>
       </item>
+
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btnGrab">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>手动拍摄（单张）</string>
+        </property>
+       </widget>
+      </item>
+
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btnStartContinuous">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>自动拍摄</string>
+        </property>
+       </widget>
+      </item>
+
       <item row="2" column="0" colspan="2">
-       <widget class="QPushButton" name="btnStartTimercamera">
+       <widget class="QPushButton" name="btnStartTimer">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="text">
          <string>定时拍摄</string>
         </property>
        </widget>
       </item>
+
       <item row="3" column="0">
        <widget class="QPushButton" name="btnConnectSpectrometer">
-        <property name="baseSize">
+        <property name="minimumSize">
          <size>
-          <width>10</width>
-          <height>14</height>
+          <width>180</width>
+          <height>52</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="text">
          <string>连接光谱仪</string>
         </property>
        </widget>
       </item>
+
       <item row="3" column="1">
        <widget class="QPushButton" name="btnStopSpectrum">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>停止采集</string>
         </property>
        </widget>
       </item>
+
+      <item row="4" column="0">
+       <widget class="QPushButton" name="btnGrabDark">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Dark采暗</string>
+        </property>
+       </widget>
+      </item>
+
+      <item row="4" column="1">
+       <widget class="QPushButton" name="btnGrabWhite">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>White</string>
+        </property>
+       </widget>
+      </item>
+
+      <item row="5" column="0">
+       <widget class="QPushButton" name="btnGrabSpectrum">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>采集单次光谱</string>
+        </property>
+       </widget>
+      </item>
+
+      <item row="5" column="1">
+       <widget class="QPushButton" name="btnStartContinuousSpectrum">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>采集连续光谱</string>
+        </property>
+       </widget>
+      </item>
+
+      <item row="6" column="0" colspan="2">
+       <widget class="QPushButton" name="btnStartTimerspectrum">
+        <property name="minimumSize">
+         <size>
+          <width>180</width>
+          <height>52</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>定时采集</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
-    <item row="1" column="2">
-     <widget class="QWidget" name="spectrumView" native="true"/>
-    </item>
-    <item row="0" column="2">
+
+    <item row="0" column="1">
      <widget class="QLabel" name="imageView">
+      <property name="minimumSize">
+       <size>
+        <width>700</width>
+        <height>380</height>
+       </size>
+      </property>
       <property name="frameShape">
        <enum>QFrame::Shape::Box</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
       </property>
       <property name="text">
        <string/>
@@ -118,42 +291,56 @@
       </property>
      </widget>
     </item>
-    <item row="3" column="0">
+
+    <item row="1" column="1">
+     <widget class="QWidget" name="spectrumView" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>700</width>
+        <height>280</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+
+    <item row="2" column="0" colspan="2">
      <widget class="QPlainTextEdit" name="logOutput">
       <property name="enabled">
        <bool>true</bool>
       </property>
-      <property name="maximumSize">
+      <property name="minimumSize">
        <size>
-        <width>16777215</width>
-        <height>150</height>
+        <width>0</width>
+        <height>140</height>
        </size>
       </property>
-     </widget>
-    </item>
-    <item row="3" column="2">
-     <widget class="QPlainTextEdit" name="WitheringDegree">
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>150</height>
+        <height>180</height>
        </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>10</pointsize>
+       </font>
       </property>
      </widget>
     </item>
    </layout>
+
    <zorder>spectrumView</zorder>
-   <zorder></zorder>
-   <zorder>imageView</zorder>
    <zorder>logOutput</zorder>
-   <zorder>WitheringDegree</zorder>
+   <zorder>imageView</zorder>
   </widget>
+
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1093</width>
+     <width>1280</width>
      <height>26</height>
     </rect>
    </property>
@@ -170,6 +357,7 @@
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
   </widget>
+
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>

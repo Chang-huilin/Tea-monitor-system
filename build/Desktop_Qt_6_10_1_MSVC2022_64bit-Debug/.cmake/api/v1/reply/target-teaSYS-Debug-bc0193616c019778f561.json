@@ -32,7 +32,7 @@
 			"CMakeLists.txt",
 			"D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake",
 			"D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake",
-			"build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 			"D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"D:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
 			"D:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
@@ -691,7 +691,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/mocs_compilation.cpp",
+			"path" : "D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -767,19 +767,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/include/ui_mainwindow.h",
+			"path" : "D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/timestamp",
+			"path" : "D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/timestamp",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/timestamp.rule",
+			"path" : "D:/2D_online_system/teaSYS/build/Desktop_Qt_6_10_1_MSVC2022_64bit-Debug/teaSYS_autogen/timestamp.rule",
 			"sourceGroupIndex" : 4
 		}
 	],

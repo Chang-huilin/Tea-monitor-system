@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SD:\2D_online_system\teaSYS -BD:\2D_online_system\teaSYS\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Debug
+  command = D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -S"D:\2D_online_system\teaSYS - 副本" -BD:\2D_online_system\teaSYS\build\Desktop_Qt_6_10_1_MSVC2022_64bit-Debug
   description = Re-running CMake...
   generator = 1
 
